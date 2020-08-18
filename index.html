@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>GYM LIKER</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div id="gym-header">
+            <img 
+            src="https://image.shutterstock.com/image-vector/inspirational-motivational-print-design-workout-260nw-640497250.jpg" 
+            alt="gym-header"
+            />
+        </div>
+
+        <div class="container">
+            <form class="add-card-form">
+                <h3>Post Image</h3>
+
+                <input type="text" name="image" value="" placeholder="Enter a image URL..." class="input-text" />
+                <input type="submit" name="submit" value="Add New Image" class="submit" />
+            </form>
+        </div>
+        <p style="text-align:center">
+            Post your epic gym picture! <button id="new-card-btn">Add New Image!</button>
+        </p>
+
+        <div id="card-collection"></div>
+    </body>
+    <script defer type="text/javascript" src="src/index.js"></script>
+</html>

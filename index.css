@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+#gym-header {
+    display: flex;
+    justify-content: center;
+    background: #f32121a1;
+    opacity: .8;
+    height: 7rem;
+    padding: 1rem;
+}
+
+#gym-header img {
+    height: 8rem;
+    width: auto;
+}
+
+#card-collection {
+    margin: 2rem;
+}
+
+.card {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 20rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px palevioletred
+}
+
+.card-avatar {
+    justify-self: center;
+    height: 12rem;
+    width: auto;
+}
+
+button {
+    position: relative;
+    background-color: #e04bbe7d;
+    border: none;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    border: #e04b52 solid 1px;
+    color: #e04b52;
+}
+
+.likes-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.container {
+    padding: 1rem;
+    width: stretch;
+    height: auto;
+    display: none;
+    background: #f32121a1;
+    opacity: .8;
+}
+
+.add-card-form {
+    width: 80%;
+}
+
+.submit {
+    position: relative;
+    background-color: #e04bbe7d;
+    border-radius: 5px;
+    height: 2rem;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: center;
+    font-family: monospace;
+    margin: 3px;
+}
+
+.submit:hover {
+    background-color: whitesmoke;
+    border: #e04b52 solid 1px;
+    color: #e04b52;
+}
+
+.input-text {
+    border-radius: 5px;
+    height: 2rem;
+    width: 60%;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 3px;
+}
+
+
+.comments {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 10px;
+    font-size: 0.85rem;
+}
+
+.comments li {
+    margin: 2px 0;
+    letter-spacing: 0.2px;
+}
+
+.comment-button {
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(92, 114, 238);
+    cursor: pointer;
+    transition: color 300ms;
+}
+
+button.deleteCard {
+    justify-self: right;
+}
+
+input[type=submit] {
+    position: relative;
+    background-color: #e04bbe7d;
+    border: none;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: center;
+}
+
+button.commentButton {
+    float: right;
+    color: whitesmoke;
+    border-radius: 30px;
+}
